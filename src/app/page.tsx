@@ -4,6 +4,7 @@ import WhatWeDo from '../components/WhatWeDo';
 import Header from '../components/Header';
 import Partners from "../components/Partners";
 import Action from '@/components/Action';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <HowItWorks />
       <Partners />
       <Action />
+      <Footer />
     </main>
   );
 }  
